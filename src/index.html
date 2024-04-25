@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="h-full bg-gray-100" lang="en">
 
 <head>
 	<meta charset="UTF-8">
@@ -8,7 +8,7 @@
 	<title>Dashboard</title>
 </head>
 
-<body>
+<body class="h-full">
 	<!-- основное окно приложения -->
 	<div class="main">
 		<!-- навбар -->
@@ -25,10 +25,10 @@
 								<div class="hidden md:block">
 									<div class="ml-10 flex items-baseline space-x-4">
 										<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-										<a href="#" class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium"
-											aria-current="page">Админ панель</a>
 										<a href="#"
-											class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Пользователи</a>
+											class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Главная</a>
+										<a href="#" class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium"
+											aria-current="page">Пользователи</a>
 										<a href="#"
 											class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Отчеты</a>
 										<a href="#"
@@ -166,7 +166,7 @@
 		</div>
 
 		<!-- добавление пользователя -->
-		<!-- <div class="flex justify-center overflow-auto">
+		<!-- <div class="flex justify-center overflow-auto p-12">
 			<form>
 				<div class="space-y-12">
 					<div class="border-b border-gray-900/10 pb-12">
@@ -393,7 +393,7 @@
 		</div> -->
 
 		<!-- списки пользователей -->
-		<div class="flex justify-center overflow-auto">
+		<div class="flex justify-center overflow-auto p-12">
 			<div
 				class="relative flex flex-col w-full min-w-0 mb-0 break-words bg-white border-0 border-transparent border-solid shadow-xl rounded-2xl bg-clip-border">
 				<div class="p-6 pb-0 mb-0 bg-white rounded-t-2xl">
@@ -426,7 +426,7 @@
 									<td class="p-2 align-middle bg-transparent border-b whitespace-nowrap shadow-transparent">
 										<div class="flex px-2 py-1">
 											<div>
-												<img src="../assets/img/team-2.jpg"
+												<img src="./image/Ivanov.jpg"
 													class="inline-flex items-center justify-center mr-4 text-white transition-all duration-200 ease-in-out text-sm h-9 w-9 rounded-xl"
 													alt="user1" />
 											</div>
@@ -446,7 +446,7 @@
 											class="bg-gradient-to-tl from-emerald-500 to-teal-400 px-3.6 text-xs rounded-1.8 py-2.2 inline-block whitespace-nowrap text-center align-baseline font-bold uppercase leading-none text-white">Online</span>
 									</td>
 									<td class="p-2 text-center align-middle bg-transparent border-b whitespace-nowrap shadow-transparent">
-										<span class="font-semibold leading-tight text-xs text-slate-400">23/04/18</span>
+										<span class="font-semibold leading-tight text-xs text-slate-400">23/04/24</span>
 									</td>
 									<td class="p-2 align-middle bg-transparent border-b whitespace-nowrap shadow-transparent">
 										<a href="javascript:;" class="font-semibold leading-tight text-xs text-slate-400"> Редакт. </a>
@@ -456,7 +456,7 @@
 									<td class="p-2 align-middle bg-transparent border-b whitespace-nowrap shadow-transparent">
 										<div class="flex px-2 py-1">
 											<div>
-												<img src="../assets/img/team-3.jpg"
+												<img src="./image/Sidorov.jpg"
 													class="inline-flex items-center justify-center mr-4 text-white transition-all duration-200 ease-in-out text-sm h-9 w-9 rounded-xl"
 													alt="user2" />
 											</div>
@@ -476,7 +476,7 @@
 											class="bg-gradient-to-tl from-slate-600 to-slate-300 px-3.6 text-xs rounded-1.8 py-2.2 inline-block whitespace-nowrap text-center align-baseline font-bold uppercase leading-none text-white">Offline</span>
 									</td>
 									<td class="p-2 text-center align-middle bg-transparent border-b whitespace-nowrap shadow-transparent">
-										<span class="font-semibold leading-tight text-xs text-slate-400">11/01/19</span>
+										<span class="font-semibold leading-tight text-xs text-slate-400">11/0/24</span>
 									</td>
 									<td class="p-2 align-middle bg-transparent border-b whitespace-nowrap shadow-transparent">
 										<a href="javascript:;" class="font-semibold leading-tight text-xs text-slate-400"> Редакт </a>
@@ -486,18 +486,18 @@
 										<td class="p-2 align-middle bg-transparent border-b whitespace-nowrap shadow-transparent">
 											<div class="flex px-2 py-1">
 												<div>
-													<img src="../assets/img/team-2.jpg"
+													<img src="./image/Petrov_cr.jpg"
 														class="inline-flex items-center justify-center mr-4 text-white transition-all duration-200 ease-in-out text-sm h-9 w-9 rounded-xl"
 														alt="user1" />
 												</div>
 												<div class="flex flex-col justify-center">
-													<h6 class="mb-0 leading-normal text-sm">Иван Иванов</h6>
-													<p class="mb-0 leading-tight text-xs text-slate-400">Иванович</p>
+													<h6 class="mb-0 leading-normal text-sm">Иван Петров</h6>
+													<p class="mb-0 leading-tight text-xs text-slate-400">Сергеевич</p>
 												</div>
 											</div>
 										</td>
 										<td class="p-2 align-middle bg-transparent border-b whitespace-nowrap shadow-transparent">
-											<p class="mb-0 font-semibold leading-tight text-xs">ОМВД по Евпатории</p>
+											<p class="mb-0 font-semibold leading-tight text-xs">ОМВД по Бахчисарайскому р-ну</p>
 											<p class="mb-0 leading-tight text-xs text-slate-400">Эксперт</p>
 										</td>
 										<td
@@ -506,7 +506,7 @@
 												class="bg-gradient-to-tl from-emerald-500 to-teal-400 px-3.6 text-xs rounded-1.8 py-2.2 inline-block whitespace-nowrap text-center align-baseline font-bold uppercase leading-none text-white">Online</span>
 										</td>
 										<td class="p-2 text-center align-middle bg-transparent border-b whitespace-nowrap shadow-transparent">
-											<span class="font-semibold leading-tight text-xs text-slate-400">23/04/18</span>
+											<span class="font-semibold leading-tight text-xs text-slate-400">23/04/24</span>
 										</td>
 										<td class="p-2 align-middle bg-transparent border-b whitespace-nowrap shadow-transparent">
 											<a href="javascript:;" class="font-semibold leading-tight text-xs text-slate-400"> Редакт. </a>
@@ -516,13 +516,13 @@
 										<td class="p-2 align-middle bg-transparent border-b whitespace-nowrap shadow-transparent">
 											<div class="flex px-2 py-1">
 												<div>
-													<img src="../assets/img/team-2.jpg"
+													<img src="./image/Petrova.jpg"
 														class="inline-flex items-center justify-center mr-4 text-white transition-all duration-200 ease-in-out text-sm h-9 w-9 rounded-xl"
 														alt="user1" />
 												</div>
 												<div class="flex flex-col justify-center">
-													<h6 class="mb-0 leading-normal text-sm">Иван Иванов</h6>
-													<p class="mb-0 leading-tight text-xs text-slate-400">Иванович</p>
+													<h6 class="mb-0 leading-normal text-sm">Светлана Петрова</h6>
+													<p class="mb-0 leading-tight text-xs text-slate-400">Петровна</p>
 												</div>
 											</div>
 										</td>
@@ -536,7 +536,7 @@
 												class="bg-gradient-to-tl from-emerald-500 to-teal-400 px-3.6 text-xs rounded-1.8 py-2.2 inline-block whitespace-nowrap text-center align-baseline font-bold uppercase leading-none text-white">Online</span>
 										</td>
 										<td class="p-2 text-center align-middle bg-transparent border-b whitespace-nowrap shadow-transparent">
-											<span class="font-semibold leading-tight text-xs text-slate-400">23/04/18</span>
+											<span class="font-semibold leading-tight text-xs text-slate-400">23/04/24</span>
 										</td>
 										<td class="p-2 align-middle bg-transparent border-b whitespace-nowrap shadow-transparent">
 											<a href="javascript:;" class="font-semibold leading-tight text-xs text-slate-400"> Редакт. </a>
