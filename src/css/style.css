@@ -764,6 +764,10 @@ video {
   width: 100%;
 }
 
+.w-2\/5 {
+  width: 40%;
+}
+
 .min-w-0 {
   min-width: 0px;
 }
@@ -771,6 +775,10 @@ video {
 .min-w-fit {
   min-width: -moz-fit-content;
   min-width: fit-content;
+}
+
+.min-w-96 {
+  min-width: 24rem;
 }
 
 .max-w-7xl {
@@ -1113,6 +1121,11 @@ video {
 .px-1 {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
+}
+
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .pb-0 {
