@@ -1565,6 +1565,14 @@ video {
   .md\:hidden {
     display: none;
   }
+
+  .md\:p-0 {
+    padding: 0px;
+  }
+
+  .md\:p-12 {
+    padding: 3rem;
+  }
 }
 
 @media (min-width: 1024px) {
