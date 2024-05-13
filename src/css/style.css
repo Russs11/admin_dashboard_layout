@@ -768,10 +768,6 @@ video {
   width: 100%;
 }
 
-.min-w-0 {
-  min-width: 0px;
-}
-
 .min-w-96 {
   min-width: 24rem;
 }
@@ -1035,10 +1031,6 @@ video {
 
 .p-10 {
   padding: 2.5rem;
-}
-
-.p-12 {
-  padding: 3rem;
 }
 
 .p-2 {
@@ -1564,10 +1556,6 @@ video {
 
   .md\:hidden {
     display: none;
-  }
-
-  .md\:p-0 {
-    padding: 0px;
   }
 
   .md\:p-12 {
